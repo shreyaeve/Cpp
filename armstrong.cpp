@@ -25,3 +25,4 @@ int main(){
       }
     return 0;
 }
+//also done this in modular approach too
