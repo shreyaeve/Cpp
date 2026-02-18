@@ -1,15 +1,37 @@
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int main(){
+//     int arr[] ={2,3,4,8,1};
+//     int min=arr[0];
+//     int n= sizeof(arr)/sizeof(arr[0]);
+//     for(int i=0;i<n;i++){
+//         if(min>arr[i]){
+//             min=arr[i];
+//         }
+//     }
+//     cout <<"minimum is:"<<min;
+
+// }
+
 #include <bits/stdc++.h>
 using namespace std;
-
 int main(){
-    int arr[] ={2,3,4,8,1};
+    int arr[]={2,3,4,8,1};
     int min=arr[0];
-    int n= sizeof(arr)/sizeof(arr[0]);
-    for(int i=0;i<n;i++){
+    int max=arr[0];
+    int n=sizeof(arr)/sizeof(arr[0]);
+    for(int i=1;i<n;i++){
         if(min>arr[i]){
             min=arr[i];
         }
+        else if(max<arr[i]){
+            max=arr[i];
+        }
+
     }
-    cout <<"minimum is:"<<min;
+
+    cout<<"min is:"<<min<<endl<<"max is:"<<max<<endl;
+
 
 }
