@@ -51,3 +51,62 @@ int main() {
     
 
 // or you can simple take an additional array and copy the values of the original array to the new array in the shifted order.
+
+
+// Online C++ compiler to run C++ program online
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     // Write C++ code here
+//     int arr[]={3,4,1,0,2,6};
+//     int d=2;
+    
+//     int n= sizeof(arr)/sizeof(arr[1]);
+//     int start = 0;
+//     int end = n-1;
+//     int temp;
+//     while(start<end){
+//         temp=arr[start];
+//         arr[start]= arr[end];
+//         arr[end]=temp;
+//         end--;
+//         start++;
+//      }
+//      start = 0;
+//     end = 2*d-1;
+//      while(start<end){
+//         temp=arr[start];
+//         arr[start]= arr[end];
+//         arr[end]=temp;
+//         end--;
+//         start++;
+//      }
+     
+//      start = 2*d;
+//     end = n-1;
+//      while(start<end){
+//         temp=arr[start];
+//         arr[start]= arr[end];
+//         arr[end]=temp;
+//         end--;
+//         start++;
+//      }
+//     //   for(int i=0;i<d/2;i++){
+//     //     temp=arr[i];
+//     //     arr[i]=arr[d-1-i];
+//     //     arr[d-1-i]=temp;
+//     //     }
+//         // for(int i=2*d;i<n;i++){
+//         // temp=arr[i];
+//         // arr[i]=arr[n-1-i];
+//         // arr[n-1-i]=temp;
+//         // }
+        
+     
+    
+//     for(int i=0;i<n;i++){
+//         cout<<arr[i]<<endl;
+//     }
+    
+//     return 0;
+// }
