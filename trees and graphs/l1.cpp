@@ -8,4 +8,4 @@ class Node{
     Node(int x){
         data=x;
     }
-};
+}; 
